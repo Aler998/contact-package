@@ -1,5 +1,5 @@
 {
-    "name": "aler/contact",
+    "name": "aler998/contact",
     "description": "contact with mail form",
     "type": "library",
     "license": "MIT",
@@ -15,6 +15,13 @@
     "autoload": {
         "psr-4": {
             "Aler\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aler\\Contact\\ContactServiceProvider"
+            ]
         }
     }
 }
