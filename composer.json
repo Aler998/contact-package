@@ -1,0 +1,20 @@
+{
+    "name": "aler/contact",
+    "description": "contact with mail form",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alessandro Ercole",
+            "email": "alessandro@gigaposta.eu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Aler\\Contact\\": "src/"
+        }
+    }
+}
